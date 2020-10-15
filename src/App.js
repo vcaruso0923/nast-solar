@@ -3,8 +3,9 @@ import Nav from './components/Nav';
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
-import Resume from './components/Resume';
 import Footer from './components/Footer';
+import About from './components/About';
+import Learn from './components/Learn';
 
 
 
@@ -13,7 +14,8 @@ function App() {
   const [homeSelected, setHomeSelected] = useState(true);
   const [portfolioSelected, setPortfolioSelected] = useState(false);
   const [contactSelected, setContactSelected] = useState(false);
-  const [resumeSelected, setResumeSelected] = useState(false);
+  const [aboutSelected, setAboutSelected] = useState(false);
+  const [learnSelected, setLearnSelected] = useState(false);
 
   var currentPage;
   var pageName;
@@ -27,9 +29,12 @@ function App() {
   } else if (contactSelected) {
     currentPage = <Contact></Contact>
     pageName = "Contact"
-  } else if (resumeSelected) {
-    currentPage = <Resume></Resume>
-    pageName = "Resume"
+  } else if (aboutSelected) {
+    currentPage = <About></About>
+    pageName = "About"
+  } else if (learnSelected) {
+    currentPage = <Learn></Learn>
+    pageName = "Learn"
   }
 
   useEffect(() => { document.title = pageName; })
@@ -41,11 +46,13 @@ function App() {
           homeSelected={homeSelected}
           portfolioSelected={portfolioSelected}
           contactSelected={contactSelected}
-          resumeSelected={resumeSelected}
+          aboutSelected={aboutSelected}
+          learnSelected={learnSelected}
           setHomeSelected={setHomeSelected}
           setPortfolioSelected={setPortfolioSelected}
           setContactSelected={setContactSelected}
-          setResumeSelected={setResumeSelected}
+          setAboutSelected={setAboutSelected}
+          setLearnSelected={setLearnSelected}
         ></Nav>
         <div className="content">
           {currentPage}

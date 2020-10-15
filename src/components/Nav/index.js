@@ -5,11 +5,13 @@ function Nav(props) {
         homeSelected,
         portfolioSelected,
         contactSelected,
-        resumeSelected,
+        aboutSelected,
+        learnSelected,
         setHomeSelected,
         setPortfolioSelected,
         setContactSelected,
-        setResumeSelected,
+        setAboutSelected,
+        setLearnSelected,
     } = props;
 
     return (
@@ -22,34 +24,47 @@ function Nav(props) {
                 <li className={`${homeSelected && 'navActive'}`}>
                         <span onClick={() => {
                             setHomeSelected(true);
+                            setAboutSelected(false);
                             setPortfolioSelected(false);
+                            setLearnSelected(false);
                             setContactSelected(false);
-                            setResumeSelected(false);
                         }}>Home</span>
+                    </li>
+                <li className={`${aboutSelected && 'navActive'}`}>
+                        <span onClick={() => {
+                            setHomeSelected(false);
+                            setAboutSelected(true);
+                            setPortfolioSelected(false);
+                            setLearnSelected(false);
+                            setContactSelected(false);
+                        }}>About</span>
                     </li>
                     <li className={`${portfolioSelected && 'navActive'}`}>
                         <span onClick={() => {
                             setHomeSelected(false);
+                            setAboutSelected(false);
                             setPortfolioSelected(true);
+                            setLearnSelected(false);
                             setContactSelected(false);
-                            setResumeSelected(false);
-                        }}>Portfolio</span>
+                        }}>Solar Projects</span>
+                    </li>
+                    <li className={`${learnSelected && 'navActive'}`}>
+                        <span onClick={() => {
+                            setHomeSelected(false);
+                            setAboutSelected(false);
+                            setPortfolioSelected(false);
+                            setLearnSelected(true);
+                            setContactSelected(false);
+                        }}>Learn About Solar</span>
                     </li>
                     <li className={`${contactSelected && 'navActive'}`}>
                         <span onClick={() => {
                             setHomeSelected(false);
+                            setAboutSelected(false);
                             setPortfolioSelected(false);
+                            setLearnSelected(false);
                             setContactSelected(true);
-                            setResumeSelected(false);
-                        }}>Contact Me</span>
-                    </li>
-                    <li className={`${resumeSelected && 'navActive'}`}>
-                        <span onClick={() => {
-                            setHomeSelected(false);
-                            setPortfolioSelected(false);
-                            setContactSelected(false);
-                            setResumeSelected(true);
-                        }}>Resume</span>
+                        }}>Go Solar!</span>
                     </li>
                 </ul>
             </nav>
