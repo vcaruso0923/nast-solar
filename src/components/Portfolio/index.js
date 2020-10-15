@@ -1,12 +1,12 @@
 import React from 'react';
-import Projects from '../Projects';
 
 function Portfolio() {
 
     return (
-        <div>
-            Portfolio
-            <Projects/>
+        <div className="projects-wrapper">
+            <p className="projects-text">
+                Coming Soon!
+            </p>
         </div>
     );
 }

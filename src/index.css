@@ -185,15 +185,22 @@ header nav ul li:hover::after {
   width: 75%
 }
 
+.projects-wrapper {
+  width: 65%;
+  align-self: center;
+  margin: auto;
+}
+
+.projects-text {
+  text-align: center;
+  font-size: 3vw;
+}
 
 
 
 
 
-
-
-
-#portfolio {
+/* #portfolio {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -225,7 +232,7 @@ header nav ul li:hover::after {
 
 .project-info h3 {
   margin: 1vw;
-}
+} */
 
 .custom-button {
   text-decoration: none;
