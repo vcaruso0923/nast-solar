@@ -14,7 +14,7 @@ A SPA profile page to hold some of my projects and contact information
 
 ## Installation
 
-Visit the website at: https://vcaruso0923.github.io/react-portfolio/
+Visit the website at: vcaruso0923.github.io/nast-solar/
 
 ## Usage
 
@@ -29,10 +29,6 @@ No License!
 No contributions please
 
 ## Tests
-
-## Screenshot
-![React Portfolio](/demo.PNG)
-
 
 ## Questions
 
