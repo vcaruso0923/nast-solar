@@ -17,7 +17,7 @@ function Nav(props) {
     return (
         <header>
             <h2>
-                Vincent Caruso
+                Nast Solar
             </h2>
             <nav>
                 <ul>
@@ -37,7 +37,7 @@ function Nav(props) {
                             setPortfolioSelected(false);
                             setLearnSelected(false);
                             setContactSelected(false);
-                        }}>About</span>
+                        }}>About Me</span>
                     </li>
                     <li className={`${portfolioSelected && 'navActive'}`}>
                         <span onClick={() => {

@@ -5,9 +5,13 @@ function Footer() {
     return (
         <footer>
             <ul>
-                <li><a href="https://github.com/vcaruso0923">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/vincent-caruso-978902121/">LinkedIn</a></li>
-                <li><a href="mailto:vincentCaruso97@gmail.com">Email</a></li>
+                <li> &copy; Nast Solar 2020 </li>
+                <li><a href="/">Privacy Policy</a></li>
+                <li><a href="/">Site Map</a></li>
+                <li>916-900-1297</li>
+                <li><a href="mailto:Nast.Solar@gmail.com">Nast.Solar@gmail.com</a></li>
+                <li><a href="/">Youtube</a></li>
+                <li><a href="/">Instagram</a></li>
             </ul>
         </footer>
     );

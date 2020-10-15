@@ -22,19 +22,19 @@ function App() {
 
   if (homeSelected) {
     currentPage = <Home></Home>
-    pageName = "Vincent Caruso"
+    pageName = "Nast Solar"
   } else if (portfolioSelected) {
     currentPage = <Portfolio></Portfolio>
-    pageName = "Portfolio"
+    pageName = "Nast Solar - Solar Projects"
   } else if (contactSelected) {
     currentPage = <Contact></Contact>
-    pageName = "Contact"
+    pageName = "Nast Solar - Go Solar!"
   } else if (aboutSelected) {
     currentPage = <About></About>
-    pageName = "About"
+    pageName = "Nast Solar - About Me"
   } else if (learnSelected) {
     currentPage = <Learn></Learn>
-    pageName = "Learn"
+    pageName = "Nast Solar - Learn About Solar"
   }
 
   useEffect(() => { document.title = pageName; })
