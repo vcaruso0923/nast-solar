@@ -196,6 +196,17 @@ header nav ul li:hover::after {
   font-size: 3vw;
 }
 
+.learn-wrapper {
+  width: 65%;
+  align-self: center;
+  margin: auto;
+}
+
+.learn-text {
+  text-align: center;
+  font-size: 3vw;
+}
+
 
 
 

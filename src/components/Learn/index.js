@@ -3,8 +3,10 @@ import React from 'react';
 function Learn() {
 
     return (
-        <div>
-            Learn some stuff about solar dude
+        <div className="learn-wrapper">
+            <p className="learn-text">
+                Coming Soon!
+            </p>
         </div>
     );
 }
