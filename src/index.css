@@ -84,12 +84,10 @@ header nav ul li:hover::after {
 }
 
 .content {
-  background-color: var(--primary-color);
   margin: 4vw
 }
 
 .about-section {
-  background-color: var(--primary-color);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -104,7 +102,7 @@ header nav ul li:hover::after {
 }
 
 #bio-wrapper {
-  color: white;
+  color: black;
   text-align: center;
 }
 
