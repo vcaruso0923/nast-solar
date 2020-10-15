@@ -116,7 +116,15 @@ function About() {
 
 
             <div className="vision-wrapper">
-
+                <div className="vision-text">
+                    <h2>
+                        Company's Vision
+                    </h2>
+                    <p>
+                        Nast Solar aims to be in multiple states by 2030 and international by 2050. The impacts of climate change are felt more in equatorial coastal nations than anywhere else.
+                        Nast Solar hopes to partner with the United Nations in order to secure funding for renewable energy projects in nations with underdeveloped energy systems.
+                    </p>
+                </div>
             </div>
         </div>
     );

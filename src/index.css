@@ -122,7 +122,7 @@ header nav ul li:hover::after {
   width: 65%;
   align-self: center;
   margin: auto;
-  background-color: rgba(232, 231, 231, 0.2);
+  background-color: rgba(232, 231, 231, 0.5);
 }
 
 .background-child {
@@ -147,13 +147,15 @@ header nav ul li:hover::after {
   width: 65%;
   align-self: center;
   margin: auto;
-  background-color: rgba(232, 231, 231, 0.2);
+  background-color: rgba(232, 231, 231, 0.5);
   margin-top: 30px;
 }
 
 .partners-text {
   text-align: center;
   padding: 30px;
+  width: 75%;
+  margin: auto;
 }
 
 .partners-images-wrapper {
@@ -161,11 +163,31 @@ header nav ul li:hover::after {
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
+  padding-bottom: 40px;
 }
 
 .partners-image {
   height: 10vw;
 }
+
+.vision-wrapper {
+  width: 65%;
+  align-self: center;
+  margin: auto;
+  background-color: rgba(232, 231, 231, 0.5);
+  margin-top: 30px;
+}
+
+.vision-text {
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+  width: 75%
+}
+
+
+
+
 
 
 
