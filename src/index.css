@@ -207,7 +207,10 @@ header nav ul li:hover::after {
   font-size: 3vw;
 }
 
-
+.learn-slideshow-wrapper {
+  text-align: center;
+  padding-bottom: 100px;
+}
 
 
 
