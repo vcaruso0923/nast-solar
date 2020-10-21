@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nast-solar/precache-manifest.7cc5bfcca2cd44e12fe22b2014621eb0.js"
+  "/nast-solar/precache-manifest.db1f3038e25fa2475354e5647b2f5f16.js"
 );
 
 self.addEventListener('message', (event) => {
