@@ -1,7 +1,7 @@
 # React Portfolio   
 ## Description
 
-A SPA profile page to hold some of my projects and contact information
+A SPA profile to serve as a landing page for those interested in working with Jared Nast to install solar systems in their home or other facility.
 
 ## Table of Contents
 
@@ -13,6 +13,7 @@ A SPA profile page to hold some of my projects and contact information
 * [Questions](#questions)
 
 ## Installation
+Clone the repository. Run 'npm i' to install all dependencies. Run 'npm start' to start the server locally.
 
 Visit the website at: vcaruso0923.github.io/nast-solar/
 
