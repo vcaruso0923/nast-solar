@@ -12,6 +12,8 @@ A SPA profile to serve as a landing page for those interested in working with Ja
 * [Tests](#tests)
 * [Questions](#questions)
 
+![nastsolar](https://user-images.githubusercontent.com/62676730/100019625-35bdb680-2d93-11eb-8fd2-c315092fcd13.PNG)
+
 ## Installation
 Clone the repository. Run 'npm i' to install all dependencies. Run 'npm start' to start the server locally.
 
